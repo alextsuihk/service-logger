@@ -1,0 +1,50 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"bracketPairColorizer.showHorizontalScopeLine": true,
+		"color-highlight.markerType": "outline",
+		// Specify paths/files to ignore.
+		"cSpell.ignorePaths": [
+			"node_modules", // this will ignore anything the node_modules directory
+			"**/node_modules", // the same for this one
+			"**/node_modules/**", // the same for this one
+			"node_modules/**", // Doesn't currently work due to how the current working directory is determined.
+			"vscode-extension", //
+			"tsconfig.json",
+			".git", // Ignore the .git directory
+			"*.dll", // Ignore all .dll files.
+			"**/*.dll" // Ignore all .dll files
+		],
+		"cSpell.ignoreWords": [],
+		// Display the spell checker status on the status bar.
+		"cSpell.showStatus": true,
+		// Set the delay before spell checking the document. Default is 50.
+		"cSpell.spellCheckDelayMs": 50,
+		// User words to add to dictionary.  Should only be in the user settings.
+		"cSpell.userWords": [],
+		// Words to add to dictionary for a workspace. 
+		"cSpell.words": [], // store in folder setting.json
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"editor.suggest.shareSuggestSelections": true,
+		"eslint.packageManager": "yarn",
+		"jest.runAllTestsFirst": false,
+		// using eslint-prettier instead of prettier (applied to JS & JSX only)
+		"prettier.disableLanguages": [
+			"jsx",
+			"js",
+			"tsx",
+			"ts"
+		],
+		"prettier.eslintIntegration": true,
+		"prettier.packageManager": "yarn",
+		"terminal.integrated.shell.linux": "/bin/bash",
+		"typescript.tsdk": "node_modules\\typescript\\lib",
+	},
+}

@@ -1,0 +1,25 @@
+{
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "cSpell.enableFiletypes": [
+    "!json"
+  ],
+  "cSpell.flagWords": [
+    "HEAD-UP",
+    "TODO",
+    "WIP",
+    "EOL"
+  ],
+  "cSpell.words": [
+    "Tsui",
+    "arial",
+    "deepmerge",
+    "mongodb",
+    "playstation",
+    "sendmail",
+    "smtp",
+    "yandex"
+  ]
+}

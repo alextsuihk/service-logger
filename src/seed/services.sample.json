@@ -1,0 +1,27 @@
+[
+  {
+    "tenant": "Express-App-XYZ",
+    "read": {
+      "apiKey": "secret-1234",
+      "ips": ["0.0.0.0"],
+      "ips_COMMENT": "Array of allowed IP"
+    },
+    "write": {
+      "apiKey": "secret-1234",
+      "ips": ["0.0.0.0"]
+    },
+    "mailTo": "report@example.net"
+  },
+  {
+    "tenant": "React-Client-ABCD",
+    "read": {
+      "apiKey": "read-secret",
+      "ips": ["0.0.0.0"]
+    },
+    "write": {
+      "apiKey": "write-secret",
+      "ips": ["0.0.0.0"]
+    },
+    "mailTo": "report@example.net"
+  }
+]
